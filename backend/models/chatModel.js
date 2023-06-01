@@ -1,7 +1,7 @@
 const mongoose = require('mongoose')
 const chatModel = mongoose.Schema(
     {
-        chatName: { typpe: String, trim: true },
+        chatName: { type: String, trim: true },
         isGroupChat: { type: Boolean, default: false },
         users: [
             {
